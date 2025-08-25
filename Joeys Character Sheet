@@ -1,0 +1,37 @@
+# Joeys Stat Sheet
+health = "Health : 10/10"
+mana = "Mana : 30/30"
+race = "Race : Human"
+name = "Joe Colt"
+strength = "Strength 3"
+wisdom = "Wisdom 3"
+inteligence = "Inteligence 1.2"
+charisma = "Charisma -16"
+constitution = "Constitution 5"
+dexterity = "Dexterity -31"
+profiecncies = "Profiecnies : None"
+AC = "Armor Class : -4"
+CA = "Class : The Fool "
+drugs  = "Drugs: Cocain , Meth , Heroine , Pure Columbian , Weed , Devils Bushel , Drug X , Whipped Cream"
+
+
+print(name)
+print(race)
+print(health)
+print(mana)
+print(strength)
+print(wisdom)
+print(charisma)
+print(constitution)
+print(inteligence)
+print(dexterity)
+print(profiecncies)
+print(AC)
+print(CA)
+print(drugs)
+# End Of Joeys Stat Sheet
+
+
+
+
+
