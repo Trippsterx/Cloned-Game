@@ -1,0 +1,18 @@
+import random
+
+def roll_dice(sides=6) :
+
+    return random.randint(1, sides)
+    
+
+result = roll_dice()
+print(f"You Rolled A {result}")
+
+result_d10 =  roll_dice(sides=10)
+print(f"You Rolled A {result_d10}") 
+
+
+result_d100 = roll_dice(sides=100)
+print(f"You Rolled A {result_d100}")
+
+
