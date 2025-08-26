@@ -1,0 +1,9 @@
+name = "Will I Am Connor Norris"
+race = "Race - Human"
+abilities = "Abilities - Asian"
+print(name)
+print(race)
+print(abilities)
+# Dumb stats
+obsessions = "Obessions - The number 4"
+print(obsessions)

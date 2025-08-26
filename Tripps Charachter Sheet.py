@@ -31,5 +31,5 @@ ArmorClass = "Armor Class - Undefined"
 print(Class)
 print(ArmorClass)
 # Skills
-profiecncies = "None"
+profiecncies = "Profiecncies - None"
 print(profiecncies)

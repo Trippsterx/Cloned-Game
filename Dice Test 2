@@ -1,0 +1,20 @@
+import random
+
+def get_dice_art(roll):
+    """Returns an ASCII art string for a given dice roll."""
+    # Unicode characters for dice faces
+    dice_faces = {
+        1: "\u2680", 2: "\u2681", 3: "\u2682",
+        4: "\u2683", 5: "\u2684", 6: "\u2685"
+    }
+    return dice_faces.get(roll, "Invalid roll")
+
+def roll_visual_dice():
+    """Rolls a six-sided die and prints its ASCII art."""
+    roll = random.randint(1, 6)
+    print("Rolling the die...")
+    print(get_dice_art(roll))
+    print(f"You rolled a {roll}!")
+
+# Example usage
+roll_visual_dice()
